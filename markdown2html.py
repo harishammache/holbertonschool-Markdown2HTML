@@ -12,14 +12,13 @@ def main():
         exit(1)
         
     markdown_file = argv[1]
-    outpout_file_name = argv[2]
+    output_file_name = argv[2]
 
     if not os.path.exists(markdown_file):
         print(f"Missing {markdown_file}", file=stderr)
         exit(1)
 
-    else:
-        exit(0)
+    exit(0)
 
 if __name__ == "__main__":
     main()
