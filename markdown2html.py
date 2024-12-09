@@ -9,7 +9,7 @@ import os
 def main():
     """tanked an argument 2 strings"""
 
-    if len(argv) < 3:
+    if len(argv) < 2:
         print("Usage: ./markdown2html.py README.md README.html", file=stderr)
         exit(1)
         
@@ -21,3 +21,6 @@ def main():
         exit(1)
 
     exit(0)
+
+if __name__ == "__main__":
+    main()
