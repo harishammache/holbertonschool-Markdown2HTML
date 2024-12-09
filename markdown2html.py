@@ -14,7 +14,7 @@ def main():
     markdown_file = argv[1]
     outpout_file_name = argv[2]
 
-    if os.path.exists(markdown_file):
+    if not os.path.exists(markdown_file):
         print(f"Missing {markdown_file}", file=stderr)
         exit(1)
 
