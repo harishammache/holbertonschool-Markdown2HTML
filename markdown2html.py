@@ -1,8 +1,9 @@
 #!/usr/bin/python3
+"""script that tanked an argument 2 strings"""
+
+
 from sys import argv, exit, stderr
 import os
-
-"""script that tanked an argument 2 strings"""
 
 
 def main():
